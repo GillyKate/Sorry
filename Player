@@ -1,1 +1,31 @@
 
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace PresentationSorryGame
+{
+    class Pawn
+    {
+        public string color;
+        public int Xlocation;
+        public int Ylocation;
+        public int Lastx;
+        public int Lasty;
+        public int StartingPositionX;
+        public int StartingPositionY;
+
+        public Pawn (string setcolor, int setStartingLocationX,int setStartingLocationY )
+        {
+            color = setcolor;
+            StartingPositionX = setStartingLocationX;
+            Xlocation = setStartingLocationX;
+            Lastx = setStartingLocationX;
+            Ylocation = setStartingLocationY;
+            Lasty = setStartingLocationY;
+            StartingPositionY = setStartingLocationY;
+        }
+    }
+}
