@@ -1,1 +1,23 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace PresentationSorryGame
+{
+    public partial class Form1 : Form
+    {
+        Pawn Red1 = new Pawn("Red", 126, 410);
+
+        public Form1()
+        {
+            InitializeComponent();
+        }
+    }
+}
 
