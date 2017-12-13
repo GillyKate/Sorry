@@ -13,6 +13,24 @@ namespace PresentationSorryGame
     public partial class Form1 : Form
     {
         Pawn Red1 = new Pawn("Red", 126, 410);
+        Pawn Red2 = new Pawn("Red", 166, 410);
+        Pawn Red3 = new Pawn("Red", 126, 446);
+        Pawn Red4 = new Pawn("Red", 166, 446);
+
+        Pawn Blue1 = new Pawn("Blue", 222, 95);
+        Pawn Blue2 = new Pawn("Blue", 262, 95);
+        Pawn Blue3 = new Pawn("Blue", 222, 131);
+        Pawn Blue4 = new Pawn("Blue", 262, 131);
+
+        Pawn Yellow1 = new Pawn("Yellow", 621, 170);
+        Pawn Yellow2 = new Pawn("Yellow", 661, 170);
+        Pawn Yellow3 = new Pawn("Yellow", 621, 206);
+        Pawn Yellow4 = new Pawn("Yellow", 661, 206);
+
+        Pawn Green1 = new Pawn("Green", 525, 490);
+        Pawn Green2 = new Pawn("Green", 565, 490);
+        Pawn Green3 = new Pawn("Green", 525, 526);
+        Pawn Green4 = new Pawn("Green", 565, 526);
 
         public Form1()
         {
@@ -20,4 +38,3 @@ namespace PresentationSorryGame
         }
     }
 }
-
